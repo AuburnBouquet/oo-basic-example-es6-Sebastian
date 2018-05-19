@@ -5,6 +5,7 @@ const expect = chai.expect;
 chai.use(sinonChai);
 
 import Person from "../../src/practice_1/person.js";
+// let Person = require("../../src/practice_1/person.js");
 
 describe("Person", () => {
     it("should have field name and age", () => {
